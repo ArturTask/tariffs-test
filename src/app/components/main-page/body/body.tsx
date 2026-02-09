@@ -83,7 +83,7 @@ export default function Body({tariffs, discountFinished=false}:{tariffs:Tariff[]
                         height={1000}
                         />
                     </div>
-                    <div id="cardsAndTextPart" className="flex flex-col justify-start items-center sm:items-start p-10 max-w-6xl gap-4 w-full" >
+                    <div id="cardsAndTextPart" className="flex flex-col justify-start items-center sm:items-start p-4 max-w-6xl gap-4 w-full" >
 
                         <div id="bestCard" className="sm:w-[680] min-h-25 gap-5 sm:min-w-2xl" onClick={()=>onCardClick(getBestTariff())}>
                             <Card isSelected={getBestTariff()?.selected} isFavourite={true} isHorizontalFlow={true} tariff={getBestTariff()} discountFinished={discountFinished} discountPercentage={70}/>
