@@ -8,7 +8,15 @@ Example App of sport tariffs
 
 to start run:
 ```shell
+    npm install pnpm
     pnpm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Demo screenshots:
+
+![1](/readme-demo/demo-1.png)
+![2](/readme-demo/demo-2-pressed.png)
+![3](/readme-demo/demo-3.png)
+![4](/readme-demo/demo-4.png)
