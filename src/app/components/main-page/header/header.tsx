@@ -25,7 +25,7 @@ export default function Header({setDiscountFinished, initialDiscountTimeSeconds=
                         'text-(--color-highlight-red) checkbox-error-animation': seconds > 0 && seconds < 30,
                         'text-white': seconds === 0
                     }
-                )}>{min}:{sec}</div>
+                )}>✦ {min}:{sec} ✦</div>
             </div>
         </div>
     );
