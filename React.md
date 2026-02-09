@@ -15,6 +15,7 @@
 
 ### CSS 
 * flex guide - https://doka-guide.vercel.app/css/flexbox-guide/
+* word-break (перенос текста) - https://doka-guide.vercel.app/css/word-break/
 
 ### Tailwind
 * flex - https://tailwindcss.com/docs/flex
