@@ -14,6 +14,9 @@ to start run:
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## Check out online:
+https://tariffs-test.vercel.app/
+
 ## Demo screenshots:
 
 ![1](/readme-demo/demo-1.png)
