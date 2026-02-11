@@ -9,7 +9,7 @@ export default function Card({isSelected=false, isFavourite=false, isHorizontalF
     return (
     <div id="cardComponent" className={clsx("relative flex items-center bg-(--color-card-background) border-2 border-(--color-card-border) rounded-4xl w-full h-full",
         {   "border-(--color-highlight-orange) border": isSelected,
-            "flex-row justify-center items-start p-7 pt-10": isHorizontalFlow,
+            "flex-row justify-center items-start p-2 pt-10": isHorizontalFlow,
             "flex-col justify-items-start pt-15": !isHorizontalFlow,
         }
     )}>
